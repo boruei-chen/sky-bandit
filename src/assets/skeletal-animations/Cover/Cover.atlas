@@ -1,0 +1,289 @@
+Cover.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+Bia/Biabosy
+bounds:1371,567,151,222
+offsets:1,3,155,226
+Bia/BiaeyebL
+bounds:1415,1601,28,29
+offsets:3,4,33,34
+Bia/BiaeyebR
+bounds:1609,1604,21,26
+offsets:4,2,28,32
+Bia/BiaeyeblashL
+bounds:1988,1600,41,30
+offsets:4,2,49,35
+Bia/Biaeyebrow
+bounds:2026,1607,18,23
+offsets:4,2,25,28
+Bia/BiaeyelashR
+bounds:824,1581,27,25
+offsets:3,3,33,32
+Bia/BiaeyewhiteL
+bounds:1221,1599,33,31
+offsets:1,0,37,34
+Bia/BiaeywwhiteR
+bounds:1328,1600,26,30
+offsets:2,3,28,33
+Bia/Biaface
+bounds:386,580,133,124
+offsets:4,3,140,130
+Bia/Biahair
+bounds:40,536,200,156
+offsets:3,2,206,159
+Bia/Biahair2
+bounds:785,1579,140,51
+offsets:0,2,144,55
+Bia/Biahead acc
+bounds:1527,902,121,153
+offsets:4,3,128,159
+Bia/Bialeft leg
+bounds:1855,742,191,151
+offsets:3,1,198,155
+Bia/Biamouth
+bounds:926,1600,40,30
+offsets:3,3,47,36
+Bia/Biaright leg
+bounds:538,554,136,118
+offsets:3,4,141,124
+Bia/Topscarf
+bounds:892,950,108,77
+offsets:2,2,111,80
+Bia/belt
+bounds:552,1077,111,46
+offsets:3,2,118,52
+Bia/belt acc
+bounds:1414,1493,41,52
+offsets:0,0,43,54
+Bia/belt acc2
+bounds:459,1573,62,57
+offsets:4,4,68,63
+Bia/belt2
+bounds:667,495,131,114
+offsets:3,3,136,121
+Bia/horsetail
+bounds:1617,1195,49,65
+offsets:3,4,56,69
+Bia/leg acc
+bounds:1632,546,151,71
+offsets:4,2,159,76
+Bia/pants
+bounds:992,574,174,119
+offsets:3,4,181,126
+Bia/pants accL
+bounds:875,1023,124,72
+offsets:4,3,130,78
+Bia/pants accR
+bounds:1182,1382,70,49
+offsets:4,2,78,54
+Bia/red scarf
+bounds:671,569,146,105
+offsets:0,3,146,109
+Bia/red scarf2
+bounds:82,643,333,119
+offsets:0,0,333,120
+Bia/ring
+bounds:435,1611,22,19
+offsets:5,3,32,25
+Bia/shoeL
+bounds:642,568,242,219
+offsets:2,2,247,223
+Bia/shoeR
+bounds:57,1022,95,46
+offsets:2,3,99,52
+Bia/wingL
+bounds:1635,884,411,372
+rotate:180
+Bia/wingR
+bounds:2,753,249,276
+offsets:1,0,251,276
+Blake/body
+bounds:230,718,264,290
+offsets:3,1,268,294
+Blake/collar
+bounds:1349,1542,110,88
+offsets:0,0,111,89
+Blake/eye white
+bounds:142,1600,36,30
+offsets:3,3,41,36
+Blake/eyebrow
+bounds:855,1617,35,13
+offsets:4,2,42,19
+Blake/eyelash
+bounds:1565,1603,44,27
+offsets:3,3,49,32
+Blake/face
+bounds:1745,586,122,165
+offsets:3,1,129,169
+Blake/hair acc
+bounds:1435,1587,22,24
+offsets:2,2,27,28
+Blake/hair behind
+bounds:608,1582,51,48
+offsets:2,3,56,55
+Blake/hair black
+bounds:966,1605,27,25
+offsets:3,4,33,32
+Blake/hair left
+bounds:838,525,139,163
+offsets:4,1,143,166
+Blake/hair left2
+bounds:2,1110,35,89
+offsets:2,0,38,90
+Blake/hair right
+bounds:1792,1086,128,159
+offsets:2,0,133,162
+Blake/hand
+bounds:1118,1012,501,618
+offsets:0,2,501,621
+rotate:180
+Blake/head acc
+bounds:605,1023,607,554
+rotate:90
+Blake/left arm
+bounds:1256,584,124,140
+offsets:4,3,130,143
+Blake/mouth
+bounds:1715,1607,27,23
+offsets:2,4,32,29
+Blake/neck
+bounds:2,1488,66,80
+Blake/right arm
+bounds:1126,1195,67,81
+offsets:0,0,67,84
+Blake/shine
+bounds:2,1007,629,623
+offsets:8,8,638,638
+Blake/shine spark
+bounds:580,284,304,578
+offsets:3,1,309,579
+rotate:90
+Blake/shine spark2
+bounds:1459,244,587,136
+offsets:2,1,589,140
+Blake/圖層 13
+bounds:2,1562,140,68
+offsets:3,4,147,76
+KnifeGirl/Knifebody
+bounds:1452,1468,168,162
+offsets:0,4,168,170
+KnifeGirl/KnifeeyeblackL
+bounds:1255,1604,24,26
+offsets:2,3,29,33
+KnifeGirl/KnifeeyeblackR
+bounds:925,1581,20,28
+offsets:3,2,26,30
+KnifeGirl/KnifeeyeblshL
+bounds:1630,1608,41,22
+offsets:4,4,48,29
+KnifeGirl/KnifeeyeblshR
+bounds:947,1584,31,21
+offsets:3,3,37,27
+KnifeGirl/Knifeeyebrow
+bounds:175,1619,29,11
+offsets:2,4,36,19
+KnifeGirl/KnifeeyewhiteL2
+bounds:1444,1605,26,25
+offsets:4,3,33,31
+KnifeGirl/KnifeeyewhiteR
+bounds:1151,1608,19,22
+offsets:3,3,26,29
+KnifeGirl/Knifeface
+bounds:993,1042,115,136
+offsets:2,4,120,144
+KnifeGirl/Knifehair
+bounds:1117,678,198,152
+offsets:0,1,198,153
+KnifeGirl/Knifehand
+bounds:625,1255,76,74
+offsets:1,3,80,79
+KnifeGirl/Knifeleft leg
+bounds:527,1426,158,204
+offsets:0,0,158,206
+KnifeGirl/Knifelleft hair
+bounds:2,1001,98,104
+offsets:4,3,105,108
+KnifeGirl/Kniferight hair
+bounds:427,985,79,50
+offsets:3,2,82,53
+KnifeGirl/Kniferight leg
+bounds:1551,738,237,349
+offsets:0,3,240,352
+KnifeGirl/blackhair
+bounds:1590,1049,581,443
+offsets:0,2,581,445
+rotate:270
+KnifeGirl/blackhair2
+bounds:235,385,236,253
+offsets:0,4,236,277
+KnifeGirl/knife
+bounds:1439,613,279,406
+offsets:0,0,282,406
+KnifeGirl/knifeneck
+bounds:1147,1402,71,87
+offsets:4,1,75,90
+KnifeGirl/left cloth
+bounds:495,793,350,286
+offsets:0,2,350,288
+KnifeGirl/left clothB
+bounds:1921,1562,122,68
+offsets:0,1,122,73
+KnifeGirl/ribbon
+bounds:657,1511,148,119
+offsets:3,2,151,121
+SBC/SBC
+bounds:858,767,419,372
+offsets:0,0,423,372
+rotate:180
+SBC/shining
+bounds:434,673,233,213
+offsets:47,22,330,259
+accessory/blue feather
+bounds:1603,1548,117,82
+offsets:7,9,127,96
+accessory/blue feather2
+bounds:1136,1427,118,131
+offsets:6,5,127,138
+accessory/blue feather3
+bounds:1247,829,134,181
+offsets:5,5,145,192
+accessory/blue featherB
+bounds:731,657,367,156
+offsets:7,3,381,166
+accessory/blueL
+bounds:588,149,911,1043
+offsets:0,4,918,1047
+rotate:90
+accessory/blueL2
+bounds:1995,1507,46,55
+offsets:7,7,59,67
+accessory/blueR3
+bounds:241,372,160,260
+offsets:4,0,165,262
+accessory/blueR4
+bounds:932,269,580,1108
+offsets:0,0,585,1108
+rotate:90
+accessory/red flower
+bounds:2,2,575,732
+offsets:0,5,581,737
+rotate:270
+accessory/red flower2
+bounds:1307,408,86,224
+offsets:5,5,97,233
+accessory/redL
+bounds:622,1330,73,98
+offsets:3,7,82,112
+accessory/redL2
+bounds:1161,1569,59,61
+offsets:3,4,68,72
+accessory/redL3
+bounds:581,1102,61,66
+offsets:6,6,71,78
+accessory/redR
+bounds:1566,1417,38,67
+offsets:2,4,42,74
+accessory/redR2
+bounds:659,1597,45,33
+offsets:2,2,48,36
