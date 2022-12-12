@@ -1,0 +1,214 @@
+.header {
+  width: 100%;
+  background: linear-gradient(90deg, #11BEC9 0%, #1199C9 100%);
+  transition: .15s ease-out;
+  @include position(fixed, 0, null, null, 0, 1000, null);
+  &--hidden {
+    transform: translateY(-100%);
+  }
+  .site-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  &__logo {
+    width: 100.58px;
+    vertical-align: top;
+  }
+  &__pc-nav {
+    margin-left: auto;
+    margin-right: 40px;
+  }
+  &__pc-nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  &__pc-nav-item {
+    width: 100px;
+    height: 75px;
+    color: $color__white;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    &:hover:not(&--active) {
+      color: #FFBE20;
+    }
+    &--active {
+      background-color: #61BDDE;
+      &::after {
+        content: '';
+        width: 100%;
+        height: 7px;
+        background-color: #FFBE20;
+        @include position(absolute, null, null, 0, 0, null, null);
+      }
+    }
+  }
+  &__pc-connect-wallet-btn {
+    background-color: #FFBE20;
+    border-radius: 5px 10px;
+    color: $color__white;
+    font-weight: bold;
+    transform: skewX(-25deg);
+    margin-right: 24px;
+    padding: 7px 20px;
+    span {
+      width: 95px;
+      text-align: center;
+      transform: skewX(25deg);
+      display: block;
+    }
+  }
+  &__mobile-menu-active-status {
+    display: none;
+  }
+  &__mobile-menu-active-status:checked ~ &__mobile-menu-btn > &__mobile-menu-btn-stuffing {
+    &:nth-child(1) {
+      width: 0%;
+      top: 9px;
+      left: 50%;
+    }
+    &:nth-child(2) {
+      transform: rotate(45deg);
+    }
+    &:nth-child(3) {
+      transform: rotate(-45deg);
+    }
+    &:nth-child(4) {
+      width: 0%;
+      top: 9px;
+      left: 50%;
+    }
+  }
+  &__mobile-menu-active-status:checked ~ &__mobile-menu {
+    right: 0;
+  }
+  &__mobile-menu-btn {
+    width: 25px;
+    height: 22px;
+    margin-left: auto;
+    position: relative;
+    display: none;
+    cursor: pointer;
+  }
+  &__mobile-menu-btn-stuffing {
+    width: 100%;
+    height: 4px;
+    background-color: $color__white;
+    border-radius: 2px;
+    transition: .25s ease-out;
+    @include position(absolute, null, null, null, 0, null, null);
+    display: block;
+    &:nth-child(1) {
+      top: 0;
+    }
+    &:nth-child(2),
+    &:nth-child(3) {
+      top: 9px;
+    }
+    &:nth-child(4) {
+      top: 18px;
+    }
+  }
+  &__mobile-menu {
+    width: 100%;
+    height: calc(100vh - 45px);
+    background-color: #1199C9;
+    box-sizing: border-box;
+    transition: all .5s ease;
+    padding: 15vh 30px;
+    @include position(fixed, null, -100%, 0, null, 1000, null);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &::before {
+      content: '';
+      width: 100%;
+      height: 4px;
+      background-color: #FFBE20;
+      @include position(absolute, 0, null, null, 0, null, null);
+    }
+  }
+  &__mobile-nav {
+    width: 60%;
+  }
+  &__mobile-nav-list {
+    width: 100%;
+  }
+  &__mobile-nav-item {
+    color: $color__white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    &:hover:not(&--active) {
+      background-color: #FFBE20;
+    }
+    &:nth-child(n):not(:last-child) {
+      margin-bottom: 10px;
+    }
+    &--active {
+      background-color: #0F699B;
+    }
+  }
+  &__mobile-connect-wallet-btn {
+    width: 100%;
+    background-color: #FFBE20;
+    border-radius: 15px;
+    color: $color__white;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: auto;
+    padding: 15px;
+  }
+  @media screen and (max-width: 960px) {
+    &__logo {
+      width: 73.75px;
+    }
+    &__pc-nav {
+      margin-right: 20px;
+    }
+    &__pc-nav-item {
+      width: 85px;
+      height: 55px;
+      font-size: 14px;
+      &--active {
+        &::after {
+          height: 4px;
+        }
+      }
+    }
+    &__pc-connect-wallet-btn {
+      font-size: 14px;
+      margin-right: 20px;
+      padding: 3px 15px;
+      span {
+        width: 80px;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    background: #1199C9;
+    &__logo {
+      width: 60.35px;
+      transform: translateX(-8px);
+    }
+    &__pc-nav,
+    &__pc-connect-wallet-btn {
+      display: none;
+    }
+    &__mobile-menu-btn {
+      display: block;
+    }
+    &__mobile-menu {
+      display: flex;
+    }
+  }
+}
