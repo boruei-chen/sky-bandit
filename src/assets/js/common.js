@@ -1,4 +1,4 @@
-function includeHTML () {
+function includeHTML (callback) {
   var z, i, elmnt, file, xhttp;
   z = document.getElementsByTagName('*');
   for (i = 0; i < z.length; i += 1) {
@@ -11,7 +11,7 @@ function includeHTML () {
           if (this.status == 200) { elmnt.innerHTML = this.responseText; }
           if (this.status == 404) { elmnt.innerHTML = 'Page not found.'; }
           elmnt.removeAttribute('include-html');
-          includeHTML();
+          includeHTML(callback);
         }
       }
       xhttp.open('GET', file, true);
@@ -19,8 +19,5 @@ function includeHTML () {
       return;
     }
   }
+  if (callback) callback();
 }
-
-document.addEventListener('DOMContentLoaded', function () {
-  includeHTML();
-});
