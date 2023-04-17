@@ -1,0 +1,28 @@
+{
+  "name": "@boruei.chen/sky-bandit",
+  "version": "1.0.0",
+  "description": "Sky Bandit template",
+  "homepage": "https://boruei-chen.github.io/sky-bandit/",
+  "scripts": {
+    "start": "http-server & npm run compile-sass:watch",
+    "compile-sass:watch": "nodemon -e scss -x \"npm run build-css\"",
+    "build-css": "node-sass src/assets/sass/ -o src/assets/css/ && npx postcss src/assets/css --use autoprefixer -d src/assets/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "http-server": "^14.1.1",
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.22",
+    "postcss-cli": "^10.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boruei-chen/sky-bandit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/boruei-chen/sky-bandit/issues"
+  },
+  "author": "BO-RUEI CHEN",
+  "license": "MIT"
+}

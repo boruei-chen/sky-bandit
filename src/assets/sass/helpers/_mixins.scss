@@ -1,0 +1,30 @@
+@mixin background-image (
+  $fileName,
+  $fileType,
+  $backgroundSize: cover,
+  $backgroundPosition: center,
+  $backgroundRepeat: no-repeat
+) {
+  background-image: url('../images/#{$fileName}.#{$fileType}');
+  background-size: $backgroundSize;
+  background-position: $backgroundPosition;
+  background-repeat: $backgroundRepeat;
+}
+
+@mixin position (
+  $position,
+  $top: null,
+  $right: null,
+  $bottom: null,
+  $left: null,
+  $z-index: null,
+  $translate: null
+) {
+  position: $position;
+  @if $top { top: $top; }
+  @if $right { right: $right; }
+  @if $bottom { bottom: $bottom; }
+  @if $left { left: $left; }
+  @if $z-index { z-index: $z-index; }
+  @if $translate { transform: $translate }
+}
