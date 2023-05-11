@@ -1,0 +1,114 @@
+.slider {
+  width: 100%;
+  height: 100%;
+  .swiper-slide {
+    width: 100%;
+    height: 100%;
+  }
+  &__btn {
+    &--disabled {
+      &::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .35);
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+  &__prev-btn,
+  &__next-btn {
+    background-color: #FFBE20;
+    border: none;
+    padding: 7px 30px;
+    position: absolute;
+    bottom: 0;
+    z-index: 15;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &::before {
+      content: '';
+      width: 20px;
+      height: 31.72px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+  &__prev-btn {
+    border-radius: 5px 10px;
+    transform: skewX(-25deg);
+    left: 7px;
+    &::before {
+      @include background-image('arrow-triangle-icon', 'svg', contain, center, no-repeat);
+      transform: rotate(180deg) skewX(25deg);
+    }
+  }
+  &__prev-btn.slider__btn--disabled {
+    &::after {
+      border-radius: 5px 10px;
+    }
+  }
+  &__next-btn {
+    border-radius: 10px 5px;
+    transform: skewX(25deg);
+    right: 7px;
+    &::before {
+      @include background-image('arrow-triangle-icon', 'svg', contain, center, no-repeat);
+      transform: skewX(-25deg);
+    }
+  }
+  &__next-btn.slider__btn--disabled {
+    &::after {
+      border-radius: 10px 5px;
+    }
+  }
+  &__pagination {
+    height: 45.74px;
+    position: absolute;
+    bottom: 0 !important;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  &__pagination-bullet {
+    width: 70px;
+    height: 5px;
+    background-color: #126E7C;
+    border-radius: 2.5px;
+    &:nth-child(n):not(:last-child) {
+      margin-right: 10px;
+    }
+    &--active {
+      background-color: #FFBE20;
+    }
+  }
+  @media screen and (max-width: 960px) {
+    &__prev-btn,
+    &__next-btn {
+      padding: 7px 28px;
+      &::before {
+        width: 16px;
+        height: 25.37px;
+      }
+    }
+    &__pagination {
+      height: 39.37px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    &__prev-btn,
+    &__next-btn {
+      padding: 7px 22.5px;
+      bottom: 39.37px;
+    }
+    &__pagination-bullet {
+      width: 50px;
+    }
+  }
+}
